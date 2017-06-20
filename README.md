@@ -1,4 +1,4 @@
-﻿This is a Project that migrates data from Docuware 5.1b to OpenKM Community 6.3.1.
+This is a Project that migrates data from Docuware 5.1b to OpenKM Community 6.3.1.
 
 Steps
 =====
@@ -13,4 +13,3 @@ Steps
 7) Modify each of the config files for each of the C# Console application instances, taking care to provide the appropriate values.
 8) Start up the application and monitor for poison messages (such as personal images that do not match the pattern of documents the application is searching for).
 9) If there are Application Exceptions as a result of poison Queued messages, delete the identify the full range of poison messages and delete them. Restart the target application where applicable.
-
